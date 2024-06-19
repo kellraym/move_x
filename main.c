@@ -9,5 +9,6 @@ int main() {
     c = getch();
     move_o(g, c);
   }
+  free(g);
   return 0;
 }

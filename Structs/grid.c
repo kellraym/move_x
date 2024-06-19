@@ -51,5 +51,4 @@ void move_o(Grid* g, char c) {
       break;
   }
   print_grid(g);
-  printf("\n%c", c);
 }
